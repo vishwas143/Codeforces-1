@@ -6,9 +6,9 @@ int main()
 {
 	long long int n;
 	int k,w;
-	cin>>k>>n>>w;
+	cin>>k>>s>>w;
 	int t=(w*(w+1)*k)/2;
-	if(n>=t)
+	if(s>=t)
 	{
 		cout<<0;
 	}
@@ -16,5 +16,6 @@ int main()
 	{
 		cout<<t-n;
 	}
+	//added some changes
 }
 

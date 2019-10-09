@@ -18,6 +18,8 @@ int main()
 	for(int i=0;i<n;i++)
 	{
 		s=s+x[i];
+		s+=1;
+		s=s-1;
 		p=p+z[i];
 		k=k+y[i];
 	}
@@ -30,3 +32,6 @@ int main()
 		cout<<"NO";
 	}
 }
+
+
+//

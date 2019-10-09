@@ -9,7 +9,7 @@ int main()
 	int q;
 	cin>>q;
 	int a[q];
-	int c[q];
+	int c[q];// making the code lengthy
 	for(int i=0;i<q;i++)
 	{
 		cin>>a[i];
@@ -27,7 +27,7 @@ int main()
 		else
 		{
 			cout<<c[i]/a[i]+1<<endl;
-		}
+		}//good thinking on the question
 	}
 	
 }

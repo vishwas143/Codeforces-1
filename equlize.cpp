@@ -12,9 +12,11 @@ int main()
 	int c[q];
 	for(int i=0;i<q;i++)
 	{
+		//input
 		cin>>a[i];
 		c[i]=0;
 		int b[a[i]];
+		//output
 		for(int j=0;j<a[i];j++)
 		{
 			cin>>b[j];

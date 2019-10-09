@@ -15,6 +15,7 @@ int main()
 	{
 		cin>>x[i]>>y[i]>>z[i];
 	}
+	//for finding sum
 	for(int i=0;i<n;i++)
 	{
 		s=s+x[i];

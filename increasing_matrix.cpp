@@ -43,6 +43,7 @@ int main()
 			}
 		}
 	}
+	//try to do single loop
 	for(int j=0;j<m-1;j++)
 	{
 		for(int i=0;i<n;i++)
